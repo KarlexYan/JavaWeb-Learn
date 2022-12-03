@@ -1,3 +1,5 @@
+package com.KarlexYan.jdbc;
+
 import org.junit.Test;
 
 import java.sql.DriverManager;

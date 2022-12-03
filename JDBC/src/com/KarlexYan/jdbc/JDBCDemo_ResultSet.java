@@ -1,9 +1,14 @@
+package com.KarlexYan.jdbc;
+
+import com.KarlexYan.pojo.Account;
 import org.junit.Test;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.function.Consumer;
 
 public class JDBCDemo_ResultSet {
     // JDBC API 详解：ResultSet
@@ -47,6 +52,46 @@ public class JDBCDemo_ResultSet {
 
         resultSet.close();
         statement.close();
+
+    }
+
+    @Test
+    // 将查询到的内容添加到集合当中
+    public void testResultSet2() throws SQLException {
+        String url = "jdbc:mysql:///test?setSSL=false";
+        String username = "root";
+        String password = "123456";
+
+
+        ResultSet resultSet = DriverManager
+                .getConnection(url, username, password)
+                .createStatement()
+                .executeQuery("select * from t_organization;");
+
+        ArrayList<Account> list = new ArrayList<>();
+
+        while (resultSet.next()) {
+
+            Account account = new Account();
+            account.setId(resultSet.getString("id"));
+            account.setO_name(resultSet.getString("o_name"));
+            account.setO_code(resultSet.getString("o_code"));
+            account.setO_category(resultSet.getString("o_category"));
+            account.setO_entered(resultSet.getString("o_entered"));
+            account.setO_username(resultSet.getString("o_username"));
+            account.setO_phone(resultSet.getString("o_phone"));
+            account.setIs_deleted(resultSet.getString("is_deleted"));
+            list.add(account);
+        }
+
+        list.forEach(account -> System.out.println(account.getId() + " "
+                + account.getO_name() + " "
+                + account.getO_code() + " "
+                + account.getO_category() + " "
+                + account.getO_entered() + " "
+                + account.getO_username() + " "
+                + account.getO_phone() + " "
+                + account.getIs_deleted()));
 
     }
 }
