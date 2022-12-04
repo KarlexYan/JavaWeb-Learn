@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.sql.*;
 
-public class JDBCDemo_FixSqlInject {
+public class JDBCDemo_PreparedStatement {
     // 防止SQL注入
     @Test
     public void fixSqlInject() throws SQLException {
