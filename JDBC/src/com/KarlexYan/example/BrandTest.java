@@ -136,5 +136,28 @@ public class BrandTest {
         preparedStatement.close();
         conn.close();
     }
+
+    @Test
+    // 删除数据
+    public void testDelete() throws Exception {
+        int id = 4;
+
+        Properties prop = new Properties();
+        prop.load(new FileInputStream("src/druid.properties"));
+        DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
+        Connection conn = dataSource.getConnection();
+
+        String sql = "delete from tb_brand where id = ?";
+        PreparedStatement preparedStatement = conn.prepareStatement(sql);
+
+        preparedStatement.setInt(1, id);
+
+        int count = preparedStatement.executeUpdate();
+
+        System.out.println(count > 0 ? "删除成功" : "删除失败");
+
+        preparedStatement.close();
+        conn.close();
+    }
 }
 
