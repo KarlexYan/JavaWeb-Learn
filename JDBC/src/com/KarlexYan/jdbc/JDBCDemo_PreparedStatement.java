@@ -9,7 +9,8 @@ public class JDBCDemo_PreparedStatement {
     @Test
     public void fixSqlInject() throws SQLException {
         // 连接数据库
-        String url = "jdbc:mysql:///test?useSSL=false";
+        // useServerPrepStmts=true 开启预编译功能
+        String url = "jdbc:mysql:///test?useSSL=false&useServerPrepStmts=true";
         String username = "root";
         String password = "123456";
         Connection conn = DriverManager.getConnection(url, username, password);
@@ -24,8 +25,10 @@ public class JDBCDemo_PreparedStatement {
         // preparedStatement对象: setXXX(参数1,参数2)
         // 参数1：?的位置编号，从1开始
         // 参数2：?的值
-        preparedStatement.setString(1, "zhangsan");
-        preparedStatement.setString(2, " ' or '1' = '1");
+        String user = "zhangsan";
+        String pwd = "' or '1' = '1";
+        preparedStatement.setString(1, user);
+        preparedStatement.setString(2, pwd);
 
         // 执行语句，不需要再传入sql
         ResultSet resultSet = preparedStatement.executeQuery();
