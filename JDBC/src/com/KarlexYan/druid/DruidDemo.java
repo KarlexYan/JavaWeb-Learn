@@ -1,6 +1,7 @@
 package com.KarlexYan.druid;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
+import org.junit.Test;
 
 import javax.sql.DataSource;
 import java.io.FileInputStream;
@@ -26,4 +27,5 @@ public class DruidDemo {
         System.out.println(System.getProperty("user.dir"));
 
     }
+
 }
