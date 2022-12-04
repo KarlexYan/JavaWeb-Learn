@@ -20,9 +20,10 @@ public class DruidDemo {
 
         // 获取数据库连接 Connection
         Connection connection = dataSource.getConnection();
+        System.out.println(connection);
 
         // 获取当前路径
-//        System.out.println(System.getProperty("user.dir"));
+        System.out.println(System.getProperty("user.dir"));
 
     }
 }
