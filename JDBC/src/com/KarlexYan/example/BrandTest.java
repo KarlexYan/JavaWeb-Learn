@@ -96,6 +96,28 @@ public class BrandTest {
 
     }
 
+    @Test
+    // 修改数据
+    public void testUpdate() throws Exception {
+        Properties prop = new Properties();
+        prop.load(new FileInputStream("src/druid.properties"));
+        DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
+        Connection conn = dataSource.getConnection();
 
+        String sql = "update tb_brand " +
+                "set brand_name = '苹果'," +
+                "company_name='苹果科技有限公司'," +
+                "ordered=50," +
+                "description='你的下一台电脑何必是电脑？'," +
+                "status=1 " +
+                "where id=4";
+        PreparedStatement preparedStatement = conn.prepareStatement(sql);
+        int count = preparedStatement.executeUpdate();
+
+        System.out.println(count > 0 ? "修改成功" : "修改失败");
+
+        preparedStatement.close();
+        conn.close();
+    }
 }
 
