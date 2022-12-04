@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="Upload .iml" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/JDBC/Data/user表.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JDBC/src/com/KarlexYan/jdbc/JDBCDemo.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopTools/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\DevelopTools\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IANlb1cL9Kd7PFPlRUftFxLHlV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Coding/maven-project/pom.xml",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "MariaDB"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC\src\com\KarlexYan" />
+      <recent name="D:\Coding\JavaWeb-Learn\Mysql\data_Advanced" />
+      <recent name="D:\Coding\JavaWeb-Learn\Mysql\data" />
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC\Data" />
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\JavaWeb-Learn\Mysql\data" />
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC\src" />
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC\lib" />
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC" />
+      <recent name="D:\Coding\JavaWeb-Learn\JDBC\tools" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloMaven">
+    <configuration name="HelloMaven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.HelloMaven" />
+      <module name="Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.KarlexYan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in maven-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrandTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.KarlexYan.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.KarlexYan.example" />
+      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.example.BrandTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrandTest.testModify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.KarlexYan.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.KarlexYan.example" />
+      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.example.BrandTest" />
+      <option name="METHOD_NAME" value="testModify" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrandTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.KarlexYan.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.KarlexYan.example" />
+      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.example.BrandTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloMaven" />
+        <item itemvalue="JUnit.All in maven-project" />
+        <item itemvalue="JUnit.BrandTest.testDelete" />
+        <item itemvalue="JUnit.BrandTest.testUpdate" />
+        <item itemvalue="JUnit.BrandTest.testModify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="" />
+      <created>1669620579965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669620579965</updated>
+      <workItem from="1669620581117" duration="10000" />
+      <workItem from="1669622239721" duration="594000" />
+      <workItem from="1670055760497" duration="16096000" />
+      <workItem from="1670130906783" duration="8242000" />
+      <workItem from="1670143074128" duration="1904000" />
+      <workItem from="1670148866761" duration="6593000" />
+      <workItem from="1670160184798" duration="4156000" />
+      <workItem from="1670164480940" duration="836000" />
+    </task>
+    <task id="LOCAL-00001" summary="JDBC Test">
+      <created>1670057544260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670057544261</updated>
+    </task>
+    <task id="LOCAL-00002" summary="upload JDBC code">
+      <created>1670065061621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670065061621</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rebuild code">
+      <created>1670065507392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670065507392</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upload JDBC API">
+      <created>1670078126308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670078126308</updated>
+    </task>
+    <task id="LOCAL-00005" summary="upload prevent sql injection">
+      <created>1670131920212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670131920212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upload sql injection simulation">
+      <created>1670132153064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670132153064</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor">
+      <created>1670133114609</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670133114609</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add comments">
+      <created>1670138140364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670138140364</updated>
+    </task>
+    <task id="LOCAL-00009" summary="upload druid demo">
+      <created>1670139389791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670139389791</updated>
+    </task>
+    <task id="LOCAL-00010" summary="upload mysql">
+      <created>1670142239635</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670142239635</updated>
+    </task>
+    <task id="LOCAL-00011" summary="upload JDBC Test">
+      <created>1670142270299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670142270299</updated>
+    </task>
+    <task id="LOCAL-00012" summary="upload JDBC Test">
+      <created>1670143025047</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670143025047</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upload JDBC Data Add Test">
+      <created>1670150635635</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670150635635</updated>
+    </task>
+    <task id="LOCAL-00014" summary="upload JDBC Data Update Test">
+      <created>1670151188653</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670151188653</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modify code">
+      <created>1670151479347</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670151479347</updated>
+    </task>
+    <task id="LOCAL-00016" summary="upload JDBC Data Delete Test">
+      <created>1670151998365</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670151998365</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create Maven ProjectFiles">
+      <created>1670152142989</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670152142989</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Delete Maven ProjectFiles">
+      <created>1670152433876</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670152433876</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create Maven ProjectFiles">
+      <created>1670155240559</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670155240559</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Upload Maven Code">
+      <created>1670159903090</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670159903090</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Upload Maven Code">
+      <created>1670162782422</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670162782422</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Upload Maven Code">
+      <created>1670165089660</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670165089660</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Upload .iml">
+      <created>1670165112920</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670165112920</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JDBC Test" />
+    <MESSAGE value="upload JDBC code" />
+    <MESSAGE value="rebuild code" />
+    <MESSAGE value="upload JDBC API" />
+    <MESSAGE value="upload prevent sql injection" />
+    <MESSAGE value="upload sql injection simulation" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add comments" />
+    <MESSAGE value="upload druid demo" />
+    <MESSAGE value="upload mysql" />
+    <MESSAGE value="upload JDBC Test" />
+    <MESSAGE value="upload JDBC Data Add Test" />
+    <MESSAGE value="upload JDBC Data Update Test" />
+    <MESSAGE value="modify code" />
+    <MESSAGE value="upload JDBC Data Delete Test" />
+    <MESSAGE value="Delete Maven ProjectFiles" />
+    <MESSAGE value="Create Maven ProjectFiles" />
+    <MESSAGE value="Upload Maven Code" />
+    <MESSAGE value="Upload .iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload .iml" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
