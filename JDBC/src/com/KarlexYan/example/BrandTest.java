@@ -99,19 +99,36 @@ public class BrandTest {
     @Test
     // 修改数据
     public void testUpdate() throws Exception {
+        // 接受提交的参数
+        String brandName = "苹果";
+        String companyName = "苹果科技有限公司";
+        int ordered = 250;
+        String description = "你的下一台电脑何必是电脑捏？";
+        int status = 1;
+        int id = 4;
+
         Properties prop = new Properties();
         prop.load(new FileInputStream("src/druid.properties"));
         DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
         Connection conn = dataSource.getConnection();
 
         String sql = "update tb_brand " +
-                "set brand_name = '苹果'," +
-                "company_name='苹果科技有限公司'," +
-                "ordered=50," +
-                "description='你的下一台电脑何必是电脑？'," +
-                "status=1 " +
-                "where id=4";
+                "set brand_name = ?," +
+                "company_name=?," +
+                "ordered=?," +
+                "description=?," +
+                "status=1=? " +
+                "where id=?";
         PreparedStatement preparedStatement = conn.prepareStatement(sql);
+
+        // 设置参数
+        preparedStatement.setString(1, brandName);
+        preparedStatement.setString(2, companyName);
+        preparedStatement.setInt(3, ordered);
+        preparedStatement.setString(4, description);
+        preparedStatement.setInt(5, status);
+        preparedStatement.setInt(6, id);
+
         int count = preparedStatement.executeUpdate();
 
         System.out.println(count > 0 ? "修改成功" : "修改失败");
