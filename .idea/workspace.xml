@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="更新HTML代码">
-      <change beforePath="$PROJECT_DIR$/HTML/src/html/htmlDemo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo2.html" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="表单练习，修改注释">
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo3_textarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/src/html/htmlDemo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo1_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/src/html/htmlDemo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo2_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -116,7 +119,7 @@
       <workItem from="1670202949400" duration="39000" />
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
-      <workItem from="1670232039379" duration="9808000" />
+      <workItem from="1670232039379" duration="11061000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -377,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670249618363</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="表单练习，修改注释">
+      <created>1670250388062</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1670250388062</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor" />
     <MESSAGE value="add comments" />
     <MESSAGE value="upload druid demo" />
     <MESSAGE value="upload mysql" />
@@ -420,7 +429,8 @@
     <MESSAGE value="MyBatis先放着" />
     <MESSAGE value="MyBatis先放着，开摆咯" />
     <MESSAGE value="更新HTML代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新HTML代码" />
+    <MESSAGE value="表单练习，修改注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="表单练习，修改注释" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
