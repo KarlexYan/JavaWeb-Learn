@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Maven" />
-        <module name="MyBatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="maven-project" target="1.8" />
+      <module name="MyBatis" target="17" />
       <module name="web-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
