@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo4_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo5_a.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +117,7 @@
       <workItem from="1670202949400" duration="39000" />
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
-      <workItem from="1670232039379" duration="12800000" />
+      <workItem from="1670232039379" duration="13892000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -406,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670251608700</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="列表">
+      <created>1670253659815</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1670253659815</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload JDBC Test" />
     <MESSAGE value="upload JDBC Data Add Test" />
     <MESSAGE value="upload JDBC Data Update Test" />
     <MESSAGE value="modify code" />
@@ -449,7 +455,8 @@
     <MESSAGE value="文本域" />
     <MESSAGE value="表格" />
     <MESSAGE value="表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="表单" />
+    <MESSAGE value="列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="列表" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
