@@ -7,14 +7,45 @@
 <body>
 <form action="#" method="post" name="registForm">
     <!--      表单控件-->
-    <table border="1px" align="center" cellpadding="5px">
+    <table align="center" cellpadding="5px">
         <tr>
             <td align="right">用户名：</td>
-            <td><input type="text"></td>
+            <td><input type="text" name="username"></td>
         </tr>
         <tr>
             <td align="right">密码：</td>
-            <td><input type="password"></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td align="right">性别：</td>
+            <td>
+                <!--                单选框radio ，name要一致-->
+                <input type="radio" name="gender">男
+                <input type="radio" name="gender">女
+            </td>
+        </tr>
+        <tr>
+            <td align="right">爱好：</td>
+            <td>
+                <!--                复选框checkbox，value是提交的数据-->
+                <input type="checkbox" name="hobby" value="sing">唱
+                <input type="checkbox" name="hobby" value="dance">跳
+                <input type="checkbox" name="hobby" value="rap">rap
+                <input type="checkbox" name="hobby" value="basket">篮球
+            </td>
+        </tr>
+        <tr>
+            <td align="right">头像：</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <!--            列合并colspan  行合并rowspan-->
+            <td colspan="2" align="center">
+                <input type="submit" value="注册">
+                <input type="reset" value="重置">
+            </td>
         </tr>
     </table>
 </form>

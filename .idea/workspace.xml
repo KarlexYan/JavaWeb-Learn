@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="MyBatis先放着，开摆咯">
-      <change afterPath="$PROJECT_DIR$/HTML/HTML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/src/html/htmlDemo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1670202949400" duration="39000" />
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
-      <workItem from="1670232039379" duration="7983000" />
+      <workItem from="1670232039379" duration="9132000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670240370968</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="更新HTML代码">
+      <created>1670248677701</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1670248677701</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload sql injection simulation" />
     <MESSAGE value="refactor" />
     <MESSAGE value="add comments" />
     <MESSAGE value="upload druid demo" />
@@ -406,7 +410,8 @@
     <MESSAGE value="项目出问题，重新做" />
     <MESSAGE value="MyBatis先放着" />
     <MESSAGE value="MyBatis先放着，开摆咯" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis先放着，开摆咯" />
+    <MESSAGE value="更新HTML代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新HTML代码" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
