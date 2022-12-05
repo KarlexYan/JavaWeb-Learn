@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyBatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <recent name="D:\Coding\JavaWeb-Learn\JDBC" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectAll">
+  <component name="RunManager" selected="Application.MapperAgent">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.HelloWorld" />
       <module name="web-demo" />
@@ -134,41 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in maven-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.KarlexYan.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.KarlexYan.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.Test.MyBatisTest" />
-      <option name="METHOD_NAME" value="testSelectAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MapperAgent" />
       <item itemvalue="Application.MyBatisDemo" />
       <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
-      <item itemvalue="JUnit.All in maven-project" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
-        <item itemvalue="JUnit.All in maven-project" />
         <item itemvalue="Application.MyBatisDemo" />
         <item itemvalue="Application.MapperAgent" />
         <item itemvalue="Application.HelloWorld" />
@@ -195,7 +164,7 @@
       <workItem from="1670202949400" duration="39000" />
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
-      <workItem from="1670232039379" duration="3928000" />
+      <workItem from="1670232039379" duration="4607000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -428,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670237870611</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="MyBatis先放着">
+      <created>1670238550133</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670238550133</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload JDBC API" />
     <MESSAGE value="upload prevent sql injection" />
     <MESSAGE value="upload sql injection simulation" />
     <MESSAGE value="refactor" />
@@ -471,7 +446,8 @@
     <MESSAGE value="使用MyBatisX插件" />
     <MESSAGE value="使用MyBatis进行增删改查测试" />
     <MESSAGE value="项目出问题，重新做" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目出问题，重新做" />
+    <MESSAGE value="MyBatis先放着" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyBatis先放着" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
