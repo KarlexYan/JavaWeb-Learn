@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="MyBatis先放着，开摆咯">
+      <change afterPath="$PROJECT_DIR$/HTML/HTML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,33 +52,34 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Coding/JavaWeb-Learn/MyBatis/src/main/java/com/KarlexYan/pojo&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Coding/JavaWeb-Learn/MyBatis/src/main/java/com/KarlexYan/pojo",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;MariaDB&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "MariaDB"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\JavaWeb-Learn\MyBatis\src\main\java\com\KarlexYan\pojo" />
@@ -90,59 +95,6 @@
       <recent name="D:\Coding\JavaWeb-Learn\JDBC\lib" />
       <recent name="D:\Coding\JavaWeb-Learn\JDBC" />
     </key>
-  </component>
-  <component name="RunManager" selected="Application.MapperAgent">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.HelloWorld" />
-      <module name="web-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapperAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.MapperAgent" />
-      <module name="MyBatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.KarlexYan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.KarlexYan.MyBatisDemo" />
-      <module name="MyBatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.KarlexYan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.MapperAgent" />
-      <item itemvalue="Application.MyBatisDemo" />
-      <item itemvalue="Application.HelloWorld" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MyBatisDemo" />
-        <item itemvalue="Application.MapperAgent" />
-        <item itemvalue="Application.HelloWorld" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -164,7 +116,7 @@
       <workItem from="1670202949400" duration="39000" />
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
-      <workItem from="1670232039379" duration="4607000" />
+      <workItem from="1670232039379" duration="7983000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -404,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670238550133</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="MyBatis先放着，开摆咯">
+      <created>1670240370968</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670240370968</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +381,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload prevent sql injection" />
     <MESSAGE value="upload sql injection simulation" />
     <MESSAGE value="refactor" />
     <MESSAGE value="add comments" />
@@ -447,7 +405,8 @@
     <MESSAGE value="使用MyBatis进行增删改查测试" />
     <MESSAGE value="项目出问题，重新做" />
     <MESSAGE value="MyBatis先放着" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis先放着" />
+    <MESSAGE value="MyBatis先放着，开摆咯" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyBatis先放着，开摆咯" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
