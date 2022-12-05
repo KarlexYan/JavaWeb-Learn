@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MyBatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/Data/tb_brand.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/com/KarlexYan/MapperAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/com/KarlexYan/MyBatisDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/com/KarlexYan/mapper/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/com/KarlexYan/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/com/KarlexYan/pojo/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/com/KarlexYan/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/com/KarlexYan/mapper/BrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/com/KarlexYan/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis/src/test/java/com/KarlexYan/Test/MyBatisTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +195,7 @@
       <workItem from="1670202949400" duration="39000" />
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
-      <workItem from="1670232039379" duration="3245000" />
+      <workItem from="1670232039379" duration="3928000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -431,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670233740753</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="项目出问题，重新做">
+      <created>1670237870611</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670237870611</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rebuild code" />
     <MESSAGE value="upload JDBC API" />
     <MESSAGE value="upload prevent sql injection" />
     <MESSAGE value="upload sql injection simulation" />
@@ -474,7 +470,8 @@
     <MESSAGE value="更新MyBatis配置文件的 environment和typeAlias" />
     <MESSAGE value="使用MyBatisX插件" />
     <MESSAGE value="使用MyBatis进行增删改查测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用MyBatis进行增删改查测试" />
+    <MESSAGE value="项目出问题，重新做" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目出问题，重新做" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
