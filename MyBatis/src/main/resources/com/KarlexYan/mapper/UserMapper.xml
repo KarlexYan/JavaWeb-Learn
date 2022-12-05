@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.KarlexYan.mapper.UserMapper">
-    <select id="selectAll" resultType="com.KarlexYan.pojo.User">
+    <select id="selectAll" resultType="user">
         select * from tb_user;
     </select>
 </mapper>
