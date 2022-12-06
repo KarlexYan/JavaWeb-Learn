@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/htmlDemo5_a.html" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="图像标签">
+      <change afterPath="$PROJECT_DIR$/HTML/src/css/cssDemo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/cssDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/cssDemo2_link.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -65,7 +68,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Coding/JavaWeb-Learn/MyBatis/src/main/java/com/KarlexYan/pojo",
+    "last_opened_file_path": "D:/Coding/JavaWeb-Learn/HTML/img",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -83,18 +87,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\JavaWeb-Learn\HTML\img" />
       <recent name="D:\Coding\JavaWeb-Learn\MyBatis\src\main\java\com\KarlexYan\pojo" />
       <recent name="D:\Coding\JavaWeb-Learn\MyBatis\Data" />
       <recent name="D:\Coding\JavaWeb-Learn\MyBatis\src\main\resources" />
       <recent name="D:\Coding\JavaWeb-Learn\JDBC\src\com\KarlexYan" />
-      <recent name="D:\Coding\JavaWeb-Learn\Mysql\data_Advanced" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\JavaWeb-Learn\HTML\src\html" />
       <recent name="D:\Coding\JavaWeb-Learn\MyBatis\src\main\resources\com\KarlexYan\mapper" />
       <recent name="D:\Coding\JavaWeb-Learn\Mysql\data" />
       <recent name="D:\Coding\JavaWeb-Learn\JDBC\src" />
       <recent name="D:\Coding\JavaWeb-Learn\JDBC\lib" />
-      <recent name="D:\Coding\JavaWeb-Learn\JDBC" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -118,6 +122,7 @@
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
       <workItem from="1670232039379" duration="13892000" />
+      <workItem from="1670304330095" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -413,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670253659815</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="图像标签">
+      <created>1670304603667</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1670304603667</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload JDBC Data Add Test" />
     <MESSAGE value="upload JDBC Data Update Test" />
     <MESSAGE value="modify code" />
     <MESSAGE value="upload JDBC Data Delete Test" />
@@ -456,7 +467,8 @@
     <MESSAGE value="表格" />
     <MESSAGE value="表单" />
     <MESSAGE value="列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="列表" />
+    <MESSAGE value="图像标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="图像标签" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
