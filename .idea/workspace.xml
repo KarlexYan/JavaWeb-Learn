@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="图像标签">
-      <change afterPath="$PROJECT_DIR$/HTML/src/css/cssDemo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/cssDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/cssDemo2_link.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/cssDemo3_import.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -122,7 +119,7 @@
       <workItem from="1670219226728" duration="10168000" />
       <workItem from="1670231804249" duration="218000" />
       <workItem from="1670232039379" duration="13892000" />
-      <workItem from="1670304330095" duration="2778000" />
+      <workItem from="1670304330095" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -425,7 +422,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670304603667</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="CSS 使用">
+      <created>1670307914421</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1670307914421</updated>
+    </task>
+    <task id="LOCAL-00045" summary="CSS外联表">
+      <created>1670307924709</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1670307924709</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,8 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload JDBC Data Update Test" />
-    <MESSAGE value="modify code" />
     <MESSAGE value="upload JDBC Data Delete Test" />
     <MESSAGE value="Delete Maven ProjectFiles" />
     <MESSAGE value="Create Maven ProjectFiles" />
@@ -468,7 +477,9 @@
     <MESSAGE value="表单" />
     <MESSAGE value="列表" />
     <MESSAGE value="图像标签" />
-    <option name="LAST_COMMIT_MESSAGE" value="图像标签" />
+    <MESSAGE value="CSS 使用" />
+    <MESSAGE value="CSS外联表" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS外联表" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
