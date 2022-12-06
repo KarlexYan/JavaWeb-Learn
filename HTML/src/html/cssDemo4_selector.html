@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*通配符选择器*/
+        * {
+            color: red;
+        }
+
+        /*标签选择器*/
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: green;
+        }
+
+        div {
+            color: pink;
+        }
+
+        /*类选择器*/
+        .yellow {
+            color: yellow;
+        }
+
+        /*id选择器*/
+        #font34 {
+            color: red;
+            font-size: 34px;
+        }
+
+        #black {
+            color: black;
+        }
+
+        /*优先级：通配符 < 标签 < 类 < id*/
+    </style>
+</head>
+<body>
+<h1>标题</h1>
+<h1 class="yellow">标题</h1>
+<p>段落</p>
+<p class="yellow" id="black">段落</p>
+<div id="font34">DIV</div>
+</body>
+</html>
