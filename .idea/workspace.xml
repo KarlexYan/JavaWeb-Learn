@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/cssDemo5_div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo2_scriptSrc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo3_var.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/js/jsDemo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -122,7 +126,8 @@
       <workItem from="1670232039379" duration="13892000" />
       <workItem from="1670304330095" duration="3396000" />
       <workItem from="1670312450495" duration="34000" />
-      <workItem from="1670312496156" duration="1524000" />
+      <workItem from="1670312496156" duration="1876000" />
+      <workItem from="1670314793152" duration="1796000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC Test">
       <created>1670057544260</created>
@@ -453,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670313351522</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="CSS Div常用属性">
+      <created>1670314108165</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1670314108165</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create Maven ProjectFiles" />
     <MESSAGE value="Upload Maven Code" />
     <MESSAGE value="Upload .iml" />
     <MESSAGE value="Upload .idea" />
@@ -496,7 +507,8 @@
     <MESSAGE value="CSS外联表" />
     <MESSAGE value="CSS导入式" />
     <MESSAGE value="CSS选择器" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS选择器" />
+    <MESSAGE value="CSS Div常用属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Div常用属性" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
