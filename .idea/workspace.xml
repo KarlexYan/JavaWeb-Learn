@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo2_scriptSrc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo3_var.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/src/js/jsDemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo4_DOM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,14 +124,7 @@
       <workItem from="1670304330095" duration="3396000" />
       <workItem from="1670312450495" duration="34000" />
       <workItem from="1670312496156" duration="1876000" />
-      <workItem from="1670314793152" duration="1796000" />
-    </task>
-    <task id="LOCAL-00001" summary="JDBC Test">
-      <created>1670057544260</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1670057544261</updated>
+      <workItem from="1670314793152" duration="2476000" />
     </task>
     <task id="LOCAL-00002" summary="upload JDBC code">
       <created>1670065061621</created>
@@ -465,7 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670314108165</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="JavaScript">
+      <created>1670317754118</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1670317754118</updated>
+    </task>
+    <task id="LOCAL-00050" summary="JavaScript">
+      <created>1670317926891</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1670317926891</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upload Maven Code" />
     <MESSAGE value="Upload .iml" />
     <MESSAGE value="Upload .idea" />
     <MESSAGE value="upload maven test" />
@@ -508,7 +511,8 @@
     <MESSAGE value="CSS导入式" />
     <MESSAGE value="CSS选择器" />
     <MESSAGE value="CSS Div常用属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS Div常用属性" />
+    <MESSAGE value="JavaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
