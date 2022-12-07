@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo5_BOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/src/html/JavaScriptDemo6_Function.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,13 +125,7 @@
       <workItem from="1670312450495" duration="34000" />
       <workItem from="1670312496156" duration="1876000" />
       <workItem from="1670314793152" duration="3097000" />
-    </task>
-    <task id="LOCAL-00003" summary="rebuild code">
-      <created>1670065507392</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1670065507392</updated>
+      <workItem from="1670393614038" duration="3458000" />
     </task>
     <task id="LOCAL-00004" summary="upload JDBC API">
       <created>1670078126308</created>
@@ -469,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670318614151</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="BOM">
+      <created>1670393702445</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1670393702446</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upload .idea" />
     <MESSAGE value="upload maven test" />
     <MESSAGE value="upload mybatis code" />
     <MESSAGE value="upload mybatis mapper-agent develop" />
@@ -512,7 +512,8 @@
     <MESSAGE value="CSS Div常用属性" />
     <MESSAGE value="JavaScript" />
     <MESSAGE value="DOM模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM模型" />
+    <MESSAGE value="BOM" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOM" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

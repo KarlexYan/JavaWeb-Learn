@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        /*声明一个有参返回值函数*/
+        function myFunction(a, b) {
+            return a + b;
+        }
+
+        /*声明一个无参函数*/
+        function myFunction2() {
+            alert('Hello JavaScript')
+        }
+
+        /*当前元素失去焦点时触发此事件*/
+        function onblurFunction() {
+            alert('失去焦点')
+        }
+
+        /*当前元素失去焦点并且元素内容发生改变时触发此事件*/
+        function onChangeFunction() {
+            alert('失去焦点并且元素内容发生改变')
+        }
+
+        /*当某个元素获得焦点时触发此事件*/
+        function onFocusFunction() {
+            alert('获得焦点')
+        }
+
+        /*当表单被提交时触发此事件*/
+        function onSubmitFunction() {
+            alert('submit')
+        }
+
+        /*当表单被重置时触发此事件*/
+        function onResetFunction() {
+            alert('reset')
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="点击" onclick="myFunction2()"><br>
+
+<input type="text" onblur="onblurFunction()" placeholder="onblur"><br>
+
+<input type="text" onchange="onChangeFunction()" placeholder="onchange"><br>
+
+<input type="text" onfocus="onFocusFunction()" placeholder="onfocus"><br>
+
+
+<form method="post" onsubmit="onSubmitFunction()" onreset="onResetFunction()">
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="提交"></td>
+            <td><input type="reset" value="重置"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
