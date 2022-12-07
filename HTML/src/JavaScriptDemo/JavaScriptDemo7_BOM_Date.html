@@ -3,17 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script type="text/javascript">
-        /*
-        * 三种弹框
-        * alert()  警告弹框
-        * confirm() 确认弹框  返回值true/false
-        * prompt()  询问弹框  当点击确定是 获取到弹框中输入的内容，类型是String
-        * */
-        alert("警告")
-        confirm('你超过18岁了吗？')
-        prompt('请输入你的昵称')
-
+    <script>
         /*Date对象*/
         var MyDate = new Date();
         var fullYear = MyDate.getFullYear();
@@ -24,16 +14,9 @@
         var min = MyDate.getMinutes();
         var sec = MyDate.getSeconds();
         document.write("现在是" + fullYear + "年" + month + "月" + date + "日，星期" + day + "。时间是" + hours + "点" + min + "分" + sec + "秒。")
-
-        window.onload = function (ev) {
-        }
-        window.addEventListener('load', function (ev) {
-
-        })
     </script>
 </head>
 <body>
-<br>
-<img src="../../img/device.jpg">
+
 </body>
 </html>
