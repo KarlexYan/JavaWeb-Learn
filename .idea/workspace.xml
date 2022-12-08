@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CakeStore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJECT/PROJECT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/fonts/Marvel-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT/CakeStore/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/CakeStore/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT/CakeStore/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/CakeStore/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,42 +63,42 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Coding/JavaWeb-Learn/PROJECT/CakeStore/css",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coding/JavaWeb-Learn/PROJECT/CakeStore/css&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "MariaDB"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;MariaDB&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\JavaWeb-Learn\PROJECT\CakeStore\css" />
+      <recent name="D:\Coding\JavaWeb-Learn\PROJECT\CakeStore" />
       <recent name="D:\Coding\JavaWeb-Learn\untitled" />
       <recent name="D:\Coding\JavaWeb-Learn\Bootstrap\src" />
       <recent name="D:\Coding\JavaWeb-Learn\untitled\src" />
-      <recent name="D:\Coding\JavaWeb-Learn\Bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\JavaWeb-Learn\Bootstrap" />
@@ -132,13 +135,7 @@
       <workItem from="1670314793152" duration="3097000" />
       <workItem from="1670393614038" duration="7844000" />
       <workItem from="1670409873185" duration="11525000" />
-    </task>
-    <task id="LOCAL-00010" summary="upload mysql">
-      <created>1670142239635</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1670142239635</updated>
+      <workItem from="1670478840161" duration="138000" />
     </task>
     <task id="LOCAL-00011" summary="upload JDBC Test">
       <created>1670142270299</created>
@@ -476,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670417143624</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="蛋糕商城注册页面的设计">
+      <created>1670478866951</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1670478866952</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用MyBatisX插件" />
     <MESSAGE value="使用MyBatis进行增删改查测试" />
     <MESSAGE value="项目出问题，重新做" />
     <MESSAGE value="MyBatis先放着" />
@@ -519,7 +522,8 @@
     <MESSAGE value="BOM STRING" />
     <MESSAGE value="upload Bootstrap" />
     <MESSAGE value="Bootstrap的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap的使用" />
+    <MESSAGE value="蛋糕商城注册页面的设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="蛋糕商城注册页面的设计" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
