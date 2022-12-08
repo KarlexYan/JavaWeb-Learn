@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/XML/src/SchemaDemo/persons.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XML/src/SchemaDemo/persons.xsd" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="XML Schema文档学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/src/SchemaDemo/persons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/src/SchemaDemo/persons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/src/SchemaDemo/persons.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/XML/src/SchemaDemo/persons.xsd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +131,7 @@
       <workItem from="1670393614038" duration="7844000" />
       <workItem from="1670409873185" duration="11525000" />
       <workItem from="1670478840161" duration="449000" />
-      <workItem from="1670480610451" duration="7301000" />
-    </task>
-    <task id="LOCAL-00013" summary="upload JDBC Data Add Test">
-      <created>1670150635635</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1670150635635</updated>
+      <workItem from="1670480610451" duration="9603000" />
     </task>
     <task id="LOCAL-00014" summary="upload JDBC Data Update Test">
       <created>1670151188653</created>
@@ -476,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670486070412</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="XML Schema文档学习">
+      <created>1670489201377</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1670489201377</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="项目出问题，重新做" />
     <MESSAGE value="MyBatis先放着" />
     <MESSAGE value="MyBatis先放着，开摆咯" />
     <MESSAGE value="更新HTML代码" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Bootstrap的使用" />
     <MESSAGE value="蛋糕商城注册页面的设计" />
     <MESSAGE value="XML与DTD约束学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="XML与DTD约束学习" />
+    <MESSAGE value="XML Schema文档学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML Schema文档学习" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

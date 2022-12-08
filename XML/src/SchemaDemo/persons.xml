@@ -10,13 +10,13 @@
          xsi:noNamespaceSchemaLocation="persons.xsd"
 >
 
-    <!--    <person>-->
-    <!--        <name>KarlexYan</name>-->
-    <!--        <age>25</age>-->
-    <!--    </person>-->
-    <!--    <person>-->
-    <!--        <name>zhangsan</name>-->
-    <!--        <age>18</age>-->
-    <!--    </person>-->
+    <person>
+        <name>KarlexYan</name>
+        <age>25</age>
+    </person>
+    <person>
+        <name>zhangsan</name>
+        <age>18</age>
+    </person>
 </persons>
 
