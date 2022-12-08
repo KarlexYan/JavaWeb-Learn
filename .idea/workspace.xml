@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="upload Bootstrap">
-      <change afterPath="$PROJECT_DIR$/Bootstrap/BootstrapDemo3_PageNav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/BootstrapDemo4_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/BootstrapDemo5_form.html" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CakeStore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/CakeStore/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/PROJECT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Bootstrap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/BootstrapDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/BootstrapDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/BootstrapDemo2_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/BootstrapDemo2_nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/BootstrapExample.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/BootstrapExample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/src/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/js/npm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Coding/JavaWeb-Learn/untitled",
+    "last_opened_file_path": "D:/Coding/JavaWeb-Learn/PROJECT/CakeStore/css",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -110,11 +91,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\JavaWeb-Learn\PROJECT\CakeStore\css" />
       <recent name="D:\Coding\JavaWeb-Learn\untitled" />
       <recent name="D:\Coding\JavaWeb-Learn\Bootstrap\src" />
       <recent name="D:\Coding\JavaWeb-Learn\untitled\src" />
       <recent name="D:\Coding\JavaWeb-Learn\Bootstrap" />
-      <recent name="D:\Coding\JavaWeb-Learn\HTML\src\JavaScriptDemo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\JavaWeb-Learn\Bootstrap" />
@@ -150,14 +131,7 @@
       <workItem from="1670312496156" duration="1876000" />
       <workItem from="1670314793152" duration="3097000" />
       <workItem from="1670393614038" duration="7844000" />
-      <workItem from="1670409873185" duration="6156000" />
-    </task>
-    <task id="LOCAL-00009" summary="upload druid demo">
-      <created>1670139389791</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1670139389791</updated>
+      <workItem from="1670409873185" duration="11525000" />
     </task>
     <task id="LOCAL-00010" summary="upload mysql">
       <created>1670142239635</created>
@@ -495,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670416079269</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Bootstrap的使用">
+      <created>1670417143624</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1670417143624</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新MyBatis配置文件的 environment和typeAlias" />
     <MESSAGE value="使用MyBatisX插件" />
     <MESSAGE value="使用MyBatis进行增删改查测试" />
     <MESSAGE value="项目出问题，重新做" />
@@ -538,7 +518,8 @@
     <MESSAGE value="分组" />
     <MESSAGE value="BOM STRING" />
     <MESSAGE value="upload Bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload Bootstrap" />
+    <MESSAGE value="Bootstrap的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap的使用" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
