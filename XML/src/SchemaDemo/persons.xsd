@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--schema约束文件，并指定名称空间-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https:///www.KarlexYan.com">
+    <xs:element name="persons">
+
+    </xs:element>
+</xs:schema>

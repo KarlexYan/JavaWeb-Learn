@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--使用名称空间引入XML Schema文档-->
+<!--<karyan:persons xmlns:karyan="https:///www.KarlexYan.com"-->
+<!--         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--         xsi:schemaLocation="https:///www.KarlexYan.com persons.xsd"-->
+<!--&gt;-->
+
+<!--通过xsi:noNamespaceSchemaLocation属性直接指定-->
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="persons.xsd"
+>
+
+    <!--    <person>-->
+    <!--        <name>KarlexYan</name>-->
+    <!--        <age>25</age>-->
+    <!--    </person>-->
+    <!--    <person>-->
+    <!--        <name>zhangsan</name>-->
+    <!--        <age>18</age>-->
+    <!--    </person>-->
+</persons>
+
