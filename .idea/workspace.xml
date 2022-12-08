@@ -9,17 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="XML Schema文档学习 狗都不用">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Tomcat_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tomcat/Tomcat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tomcat/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +115,8 @@
   <component name="RunManager">
     <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="Tomcat:war exploded">
           <settings>
@@ -242,14 +233,7 @@
       <workItem from="1670478840161" duration="449000" />
       <workItem from="1670480610451" duration="10217000" />
       <workItem from="1670499250751" duration="953000" />
-      <workItem from="1670500272089" duration="1505000" />
-    </task>
-    <task id="LOCAL-00015" summary="modify code">
-      <created>1670151479347</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1670151479347</updated>
+      <workItem from="1670500272089" duration="2122000" />
     </task>
     <task id="LOCAL-00016" summary="upload JDBC Data Delete Test">
       <created>1670151998365</created>
@@ -587,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670491791856</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Tomcat使用">
+      <created>1670501836394</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1670501836394</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MyBatis先放着，开摆咯" />
     <MESSAGE value="更新HTML代码" />
     <MESSAGE value="表单练习，修改注释" />
     <MESSAGE value="文本域" />
@@ -630,7 +620,8 @@
     <MESSAGE value="XML与DTD约束学习" />
     <MESSAGE value="XML Schema文档学习" />
     <MESSAGE value="XML Schema文档学习 狗都不用" />
-    <option name="LAST_COMMIT_MESSAGE" value="XML Schema文档学习 狗都不用" />
+    <MESSAGE value="Tomcat使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tomcat使用" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
