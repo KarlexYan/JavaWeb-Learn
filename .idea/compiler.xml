@@ -11,6 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo1" target="1.8" />
       <module name="maven-project" target="1.8" />
       <module name="web-demo" target="1.8" />
     </bytecodeTargetLevel>
