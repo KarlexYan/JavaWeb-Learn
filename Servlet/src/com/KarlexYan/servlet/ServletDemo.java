@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/*定制路径*/
 @WebServlet("/hello")
 public class ServletDemo extends HttpServlet {
     @Override
