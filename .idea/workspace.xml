@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="Tomcat使用">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/Servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat/Tomcat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tomcat/Tomcat.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +29,11 @@
         <option value="Interface" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="package.json" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +93,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -118,9 +126,9 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="Tomcat:war exploded">
+        <artifact name="Servlet:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Tomcat_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Servlet_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -198,7 +206,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Tomcat:war exploded" />
+          <artifact name="Servlet:war exploded" />
         </option>
       </method>
     </configuration>
@@ -233,14 +241,8 @@
       <workItem from="1670478840161" duration="449000" />
       <workItem from="1670480610451" duration="10217000" />
       <workItem from="1670499250751" duration="953000" />
-      <workItem from="1670500272089" duration="2122000" />
-    </task>
-    <task id="LOCAL-00016" summary="upload JDBC Data Delete Test">
-      <created>1670151998365</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1670151998365</updated>
+      <workItem from="1670500272089" duration="4183000" />
+      <workItem from="1670565254073" duration="2303000" />
     </task>
     <task id="LOCAL-00017" summary="Create Maven ProjectFiles">
       <created>1670152142989</created>
@@ -578,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670501836394</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Tomcat使用">
+      <created>1670502722133</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1670502722133</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

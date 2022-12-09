@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaWeb-Learn.iml" filepath="$PROJECT_DIR$/JavaWeb-Learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mysql/Mysql.iml" filepath="$PROJECT_DIR$/Mysql/Mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/PROJECT/PROJECT.iml" filepath="$PROJECT_DIR$/PROJECT/PROJECT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet/Servlet.iml" filepath="$PROJECT_DIR$/Servlet/Servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
     </modules>
