@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletConfig.java" afterDir="false" />
+    <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="Servlet 的配置">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_Lifecycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +30,8 @@
         <option value="HTML File" />
         <option value="package.json" />
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -238,14 +240,7 @@
       <workItem from="1670480610451" duration="10217000" />
       <workItem from="1670499250751" duration="953000" />
       <workItem from="1670500272089" duration="4183000" />
-      <workItem from="1670565254073" duration="6098000" />
-    </task>
-    <task id="LOCAL-00019" summary="Create Maven ProjectFiles">
-      <created>1670155240559</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1670155240559</updated>
+      <workItem from="1670565254073" duration="8528000" />
     </task>
     <task id="LOCAL-00020" summary="Upload Maven Code">
       <created>1670159903090</created>
@@ -583,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670570821049</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Servlet 的配置">
+      <created>1670576138652</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1670576138652</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="表单练习，修改注释" />
     <MESSAGE value="文本域" />
     <MESSAGE value="表格" />
     <MESSAGE value="表单" />
@@ -626,7 +627,8 @@
     <MESSAGE value="XML Schema文档学习 狗都不用" />
     <MESSAGE value="Tomcat使用" />
     <MESSAGE value="Servlet 入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet 入门" />
+    <MESSAGE value="Servlet 的配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet 的配置" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

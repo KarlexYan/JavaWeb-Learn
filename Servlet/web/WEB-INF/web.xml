@@ -5,12 +5,12 @@
          version="4.0">
 
     <!--配置Servlet-->
-    <servlet>
-        <servlet-name>ServletConfig</servlet-name>
-        <servlet-class>com.KarlexYan.servlet.ServletConfig</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ServletConfig</servlet-name>
-        <url-pattern>/config</url-pattern>
-    </servlet-mapping>
+    <!--    <servlet>-->
+    <!--        <servlet-name>ServletConfig</servlet-name>-->
+    <!--        <servlet-class>com.KarlexYan.servlet.ServletDemo_Config</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>ServletConfig</servlet-name>-->
+    <!--        <url-pattern>/config</url-pattern>-->
+    <!--    </servlet-mapping>-->
 </web-app>
