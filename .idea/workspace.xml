@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,8 @@
         <option value="HTML File" />
         <option value="package.json" />
         <option value="Tag Library Descriptor" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -236,14 +238,7 @@
       <workItem from="1670480610451" duration="10217000" />
       <workItem from="1670499250751" duration="953000" />
       <workItem from="1670500272089" duration="4183000" />
-      <workItem from="1670565254073" duration="2687000" />
-    </task>
-    <task id="LOCAL-00018" summary="Delete Maven ProjectFiles">
-      <created>1670152433876</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1670152433876</updated>
+      <workItem from="1670565254073" duration="6098000" />
     </task>
     <task id="LOCAL-00019" summary="Create Maven ProjectFiles">
       <created>1670155240559</created>
@@ -581,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670570719747</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Servlet 入门">
+      <created>1670570821049</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1670570821049</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
