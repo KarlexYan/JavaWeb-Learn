@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_ServletContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,14 +238,7 @@
       <workItem from="1670480610451" duration="10217000" />
       <workItem from="1670499250751" duration="953000" />
       <workItem from="1670500272089" duration="4183000" />
-      <workItem from="1670565254073" duration="10503000" />
-    </task>
-    <task id="LOCAL-00022" summary="Upload Maven Code">
-      <created>1670165089660</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1670165089660</updated>
+      <workItem from="1670565254073" duration="13098000" />
     </task>
     <task id="LOCAL-00023" summary="Upload .iml">
       <created>1670165112920</created>
@@ -582,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670591744656</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="ServletConfig">
+      <created>1670593519797</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1670593519797</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="表单" />
     <MESSAGE value="列表" />
     <MESSAGE value="图像标签" />
     <MESSAGE value="CSS 使用" />
@@ -625,7 +625,8 @@
     <MESSAGE value="Servlet 的配置" />
     <MESSAGE value="Servlet 的生命周期" />
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+    <MESSAGE value="ServletConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletConfig" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

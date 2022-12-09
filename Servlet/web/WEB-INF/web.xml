@@ -13,4 +13,18 @@
     <!--        <servlet-name>ServletConfig</servlet-name>-->
     <!--        <url-pattern>/config</url-pattern>-->
     <!--    </servlet-mapping>-->
+
+    <!--配置ServletContext接口中的信息-->
+    <context-param>
+        <param-name>companyName</param-name>
+        <param-value>KarlexYan</param-value>
+    </context-param>
+    <context-param>
+        <param-name>city</param-name>
+        <param-value>Guangdong</param-value>
+    </context-param>
+    <context-param>
+        <param-name>age</param-name>
+        <param-value>23</param-value>
+    </context-param>
 </web-app>
