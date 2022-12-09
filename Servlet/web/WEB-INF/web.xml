@@ -7,7 +7,7 @@
     <!--配置Servlet-->
     <!--    <servlet>-->
     <!--        <servlet-name>ServletConfig</servlet-name>-->
-    <!--        <servlet-class>com.KarlexYan.servlet.ServletDemo_Config</servlet-class>-->
+    <!--        <servlet-class>com.KarlexYan.servlet.ServletDemo_doGet_doPost</servlet-class>-->
     <!--    </servlet>-->
     <!--    <servlet-mapping>-->
     <!--        <servlet-name>ServletConfig</servlet-name>-->
