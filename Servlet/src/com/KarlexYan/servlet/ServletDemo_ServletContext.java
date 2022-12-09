@@ -35,5 +35,8 @@ public class ServletDemo_ServletContext extends HttpServlet {
             String value = servletContext.getInitParameter(name);
             resp.getWriter().write(name + ":" + value + "\n");
         }
+
+        // 设置ServletContext的域属性，第一个参数是域属性名，第二个参数是域属性值
+        servletContext.setAttribute("name", "KarlexYan");
     }
 }

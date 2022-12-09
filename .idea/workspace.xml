@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ced3396-2a0e-4e6b-86a9-755ec360a4c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_ServletContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_ServletContext2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_ServletContext3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_ServletContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/src/com/KarlexYan/servlet/ServletDemo_ServletContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +115,9 @@
       <recent name="D:\Coding\JavaWeb-Learn\Bootstrap\css" />
       <recent name="D:\Coding\JavaWeb-Learn\HTML\src\JavaScriptDemo" />
       <recent name="D:\Coding\JavaWeb-Learn\HTML\src\cssDemo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.KarlexYan.servlet" />
     </key>
   </component>
   <component name="RunManager">
@@ -238,14 +242,7 @@
       <workItem from="1670480610451" duration="10217000" />
       <workItem from="1670499250751" duration="953000" />
       <workItem from="1670500272089" duration="4183000" />
-      <workItem from="1670565254073" duration="13098000" />
-    </task>
-    <task id="LOCAL-00023" summary="Upload .iml">
-      <created>1670165112920</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1670165112920</updated>
+      <workItem from="1670565254073" duration="14222000" />
     </task>
     <task id="LOCAL-00024" summary="Upload .idea">
       <created>1670165337403</created>
@@ -583,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670593519797</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="ServletContext">
+      <created>1670597067694</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1670597067695</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="列表" />
     <MESSAGE value="图像标签" />
     <MESSAGE value="CSS 使用" />
     <MESSAGE value="CSS外联表" />
@@ -626,7 +629,8 @@
     <MESSAGE value="Servlet 的生命周期" />
     <MESSAGE value="rename" />
     <MESSAGE value="ServletConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServletConfig" />
+    <MESSAGE value="ServletContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletContext" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
