@@ -22,10 +22,10 @@ public class ServletDemo_ServletContext4 extends HttpServlet {
         // 获取ServletContext对象
         ServletContext servletContext = this.getServletContext();
         // 返回映射到资源文件的InputStream输入流对象
-        InputStream io = servletContext.getResourceAsStream("WEB-INF/jjj.properties");
+        InputStream is = servletContext.getResourceAsStream("WEB-INF/jjj.properties");
         // 加载配置文件
         Properties prop = new Properties();
-        prop.load(io);
+        prop.load(is);
         String company = prop.getProperty("Company");
         String address = prop.getProperty("Address");
 
