@@ -36,6 +36,9 @@ public class SessionDemo extends HttpServlet {
         // 获取当前Session是否为新创建的
         boolean aNew = session.isNew();
 
+        // 让session立即失效
+        session.invalidate();
+
         PrintWriter writer = resp.getWriter();
 
         writer.write(" id=" + id);
