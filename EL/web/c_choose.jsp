@@ -18,10 +18,10 @@
         <c:out value="不能为空"></c:out>
     </c:when>
     <c:when test="${param.username.equals('karlexyan')}">
-        ${param.username}+"is Manager"
+        ${param.username} is Manager
     </c:when>
     <c:otherwise>
-        ${param.username}+"is Employee"
+        ${param.username} is Employee
     </c:otherwise>
 </c:choose>
 </body>
