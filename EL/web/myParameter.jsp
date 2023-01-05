@@ -16,5 +16,13 @@
 <hr>
 第二个对象的用户名：${users[1].userName}<br>
 年龄为${users[1].age}
+<hr>
+第一个对象是否为空：${empty users[0]}<br>
+第三个对象是否为空：${empty users[2]}<br>
+<hr>
+characterEncoding:${pageContext.response.characterEncoding}<br>
+requestURL:${pageContext.request.requestURL}<br>
+serverInfo:${pageContext.servletContext.serverInfo}<br>
+servletName:${pageContext.servletConfig.servletName}<br>
 </body>
 </html>
