@@ -12,6 +12,9 @@
 </head>
 <body>
 <jsp:useBean id="stu" class="com.KarlexYan.domain.Student"></jsp:useBean>
+<jsp:setProperty name="stu" property="name" value="lisi"></jsp:setProperty>
+<jsp:setProperty name="stu" property="age" value="24"></jsp:setProperty>
+<jsp:setProperty name="stu" property="gender" value="女"></jsp:setProperty>
 <ul>
     <li>
         姓名：
