@@ -22,5 +22,7 @@
     <orderEntry type="library" name="Tomcat 9.0.70" level="application_server_libraries" />
     <orderEntry type="library" name="jstl" level="project" />
     <orderEntry type="library" name="standard" level="project" />
+    <orderEntry type="library" name="jstl" level="project" />
+    <orderEntry type="library" name="standard" level="project" />
   </component>
 </module>
