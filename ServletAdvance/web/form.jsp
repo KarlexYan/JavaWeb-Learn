@@ -11,7 +11,7 @@
     <title>文件上传</title>
 </head>
 <body>
-<form action="" method="post" enctype="multipart/form-data">
+<form action="UploadServlet" method="post" enctype="multipart/form-data">
     <table width="600px">
         <tr>
             <td>上传者</td>
