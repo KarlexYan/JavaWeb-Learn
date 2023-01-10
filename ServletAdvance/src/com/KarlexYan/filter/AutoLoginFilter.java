@@ -26,7 +26,6 @@ public class AutoLoginFilter implements Filter {
             }
         }
 
-
         if (flag != null) {
             // 有，解析用户信息，封装成User对象，放行
             String[] split = flag.split("-");
