@@ -13,5 +13,6 @@ public class ForwardServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // 使用forward
         req.getRequestDispatcher("/first.jsp").forward(req, resp);
+
     }
 }
