@@ -11,7 +11,6 @@ public class MyFilter2 implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
         System.out.println("init方法执行...");
     }
-
     // 实际执行过滤操作的
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
