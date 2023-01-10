@@ -17,7 +17,6 @@ public class ForwardFilter implements Filter {
         System.out.println("doFilter方法执行...");
         servletResponse.getWriter().write("ForwardFilterTest");
     }
-
     @Override
     public void destroy() {
         System.out.println("destroy方法执行...");
