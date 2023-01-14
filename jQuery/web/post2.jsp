@@ -15,7 +15,7 @@
 <button id="btn">加载数据</button>
 <div id="box"></div>
 <script>
-    // 调用$.get()方法发送数据
+    // 调用$.post()方法发送数据
     $('#btn').click(function () {
         var userData = {username: 'karlexyan', password: 123};
         $.post('http://localhost:8080/jQuery/Load2Servlet', userData, function (data) {

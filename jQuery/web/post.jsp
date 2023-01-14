@@ -15,7 +15,7 @@
 <button id="btn">加载数据</button>
 <div id="box"></div>
 <script>
-    // 调用$.get()方法请求数据
+    // 调用$.post()方法请求数据
     $('#btn').click(function () {
         $.post('http://localhost:8080/jQuery/target.jsp', function (data) {
             $('#box').html(data);
