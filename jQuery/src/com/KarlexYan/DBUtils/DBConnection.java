@@ -22,17 +22,20 @@ public class DBConnection {
     }
 
     public static boolean contains(String user, String pwd) {
+        PreparedStatement prepStmt = null;
+        ResultSet resultSet = null;
+        Connection conn = null;
         try {
-            Connection conn = getConnection();
+            conn = getConnection();
             // 定义sql
             String sql = "select * from user where name = ? and password = ?";
             // 预编译
-            PreparedStatement prepStmt = conn.prepareStatement(sql);
+            prepStmt = conn.prepareStatement(sql);
             prepStmt.setString(1, user);
             prepStmt.setString(2, pwd);
 
             // 执行语句
-            ResultSet resultSet = prepStmt.executeQuery();
+            resultSet = prepStmt.executeQuery();
 
             if (resultSet.next()) {
                 return true;
@@ -42,4 +45,22 @@ public class DBConnection {
             throw new RuntimeException(e);
         }
     }
+
+    public static ResultSet searchTitle(String sql) {
+        PreparedStatement prepStmt = null;
+        ResultSet resultSet = null;
+        Connection conn = null;
+
+        try {
+            conn = getConnection();
+//            String sql = "select title from info";
+            prepStmt = conn.prepareStatement(sql);
+            resultSet = prepStmt.executeQuery();
+
+            return resultSet;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }

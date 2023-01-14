@@ -9,8 +9,25 @@
 <html>
 <head>
     <title>$Title$</title>
+    <script src="jquery-3.6.3.js"></script>
 </head>
 <body>
-$END$
+<section>
+    <marquee direction="up" scrollammount="3" id="showInfo">
+
+    </marquee>
+</section>
 </body>
+<script>
+    function getInfo() {
+        $.get('http://localhost:8080/jQuery/getInfo.jsp', function (data) {
+            $('#showInfo').html(data);
+        })
+    }
+
+    $(document).ready(function () {
+        getInfo();
+        setInterval("getInfo()", 600000);
+    })
+</script>
 </html>
