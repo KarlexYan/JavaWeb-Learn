@@ -16,7 +16,13 @@
         </environment>
     </environments>
     <mappers>
-        <!--加载sql映射文件-->
-        <mapper resource="UserMapper.xml"/>
+        <!--        &lt;!&ndash;加载sql映射文件(同目录)&ndash;&gt;-->
+        <!--        <mapper resource="UserMapper.xml"/>-->
+
+        <!--        &lt;!&ndash;代理开发加载sql映射文件(不同目录)&ndash;&gt;-->
+        <!--        <mapper resource="com/KarlexYan/mapper/UserMapper.xml" />-->
+
+        <!--如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载-->
+        <package name="com.KarlexYan.mapper"/>
     </mappers>
 </configuration>
