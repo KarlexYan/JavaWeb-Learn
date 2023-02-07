@@ -3,8 +3,22 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!--
+    类型别名可为 Java 类型设置一个缩写名字。 它仅用于 XML 配置，意在降低冗余的全限定类名书写
+    配置别名后Mapper文件中不用再写全限定名，只用写package配置的的路径下的实体类名，且不区分大小写
+    -->
+    <typeAliases>
+        <package name="com.KarlexYan.pojo"/>
+    </typeAliases>
+
+
+    <!--
+    environments 配置数据库连接信息，可以配置多个environments
+    default 用来切换默认环境，id用来区分环境
+    -->
     <environments default="development">
         <environment id="development">
+            <!--事务管理器 无须配置 在以后接触到Spring后，Spring模块会使用自带的管理器来覆盖前面的配置-->
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <!--数据库连接信息-->
@@ -16,13 +30,15 @@
         </environment>
     </environments>
     <mappers>
-        <!--        &lt;!&ndash;加载sql映射文件(同目录)&ndash;&gt;-->
-        <!--        <mapper resource="UserMapper.xml"/>-->
+        <!--加载sql映射文件(同目录)-->
+        <!--                <mapper resource="UserMapper.xml"/>-->
 
-        <!--        &lt;!&ndash;代理开发加载sql映射文件(不同目录)&ndash;&gt;-->
-        <!--        <mapper resource="com/KarlexYan/mapper/UserMapper.xml" />-->
+        <!--代理开发加载sql映射文件(不同目录)-->
+        <!--                <mapper resource="com/KarlexYan/mapper/UserMapper.xml" />-->
 
         <!--如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载-->
         <package name="com.KarlexYan.mapper"/>
     </mappers>
+
+
 </configuration>

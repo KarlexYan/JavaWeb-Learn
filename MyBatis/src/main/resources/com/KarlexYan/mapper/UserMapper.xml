@@ -13,6 +13,7 @@
 <!--代理开发-->
 <!--命名空间改为Mapper接口的全限定名-->
 <mapper namespace="com.KarlexYan.mapper.UserMapper">
+    <!--如果配置了别名，resultType只需写user即可-->
     <select id="selectAll" resultType="com.KarlexYan.pojo.User">
         select * from tb_user;
     </select>
