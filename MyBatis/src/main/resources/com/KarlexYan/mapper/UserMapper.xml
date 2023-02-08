@@ -15,9 +15,10 @@
 <mapper namespace="com.KarlexYan.mapper.UserMapper">
     <!--如果配置了别名，resultType只需写user即可-->
     <select id="selectAll" resultType="com.KarlexYan.pojo.User">
-        select * from tb_user;
+        select *
+        from tb_user;
     </select>
-    <select id="selectById" resultType="com.KarlexYan.pojo.User">
-        select * from tb_user where id = #{id};
-    </select>
+    <!--    <select id="selectById" resultType="com.KarlexYan.pojo.User">-->
+    <!--        select * from tb_user where id = #{id};-->
+    <!--    </select>-->
 </mapper>
