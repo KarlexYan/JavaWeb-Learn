@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.KarlexYan.mapper.BrandMapper">
+    <!--
+    如果数据库表的字段名称 和 实体类的属性名称 不一致，则不能自动封装数据
+    * 起别名：对不一样的列名起别名，让别名和实体类的属性名一样
+        * 缺点：每次查询都要定义一次别名
+    * 定义sql片段：将一段语句设定一个id，在sql语句中使用 <include>标签引入
+        * 缺点：不灵活
+    * resultMap：将指定列名转换为指定别名，将字段名和属性名对应起来
+    -->
+
+    <!--
+    resultMap
+        id：唯一标识
+        type：映射的类型，支持别名
+    -->
+    <resultMap id="brandResultMap" type="com.KarlexYan.pojo.Brand">
+        <!--
+            id：完成主键字段的映射
+                column：表的列名
+                property：实体类的属性名
+            result：完成一般字段的映射
+                column：表的列名
+                property：实体类的属性名
+        -->
+        <result column="brand_name" property="brandName"/>
+        <result column="company_name" property="companyName"/>
+    </resultMap>
+
+
+    <select id="selectAll" resultType="com.KarlexYan.pojo.Brand" resultMap="brandResultMap">
+        select *
+        from tb_brand;
+    </select>
+
+
+    <!--定义sql片段-->
+    <!--    <sql id="brand_column">id, brand_name as brandName, company_name as companyName, ordered, description, status-->
+    <!--    </sql>-->
+    <!--    <select id="selectAll" resultType="com.KarlexYan.pojo.Brand">-->
+    <!--        select <include refid="brand_column" />-->
+    <!--        from tb_brand;-->
+    <!--    </select>-->
+
+    <!--起别名-->
+    <!--    <select id="selectAll" resultType="com.KarlexYan.pojo.Brand">-->
+    <!--        select id, brand_name as brandName, company_name as companyName, ordered, description, status-->
+    <!--        from tb_brand;-->
+    <!--    </select>-->
+
+    <!--查询所有数据-->
+    <!--    <select id="selectAll" resultType="com.KarlexYan.pojo.Brand">-->
+    <!--        select *-->
+    <!--        from tb_brand;-->
+    <!--    </select>-->
+
+
+    <!--
+        参数占位符：
+            1.#{}：将参数替换为?，目的防止SQL注入
+            2.${}：拼sql，存在SQL注入问题
+        SQL语句特殊字符处理：
+            * 转义字符 如&lt;
+            * CDATA区 输入CD回车
+    -->
+    <!--根据id查找品牌所有数据-->
+    <select id="selectById" resultType="com.KarlexYan.pojo.Brand" resultMap="brandResultMap" parameterType="int">
+        select *
+        from tb_brand
+        where id = #{id};
+    </select>
+
+    <!--根据条件查找品牌对象-->
+    <!--    <select id="selectByCondition" resultType="com.KarlexYan.pojo.Brand" resultMap="brandResultMap">-->
+    <!--        select *-->
+    <!--        from tb_brand-->
+    <!--        where status = #{status}-->
+    <!--          and company_Name like #{companyName}-->
+    <!--          and brand_Name like #{brandName};-->
+    <!--    </select>-->
+
+    <!--
+    动态条件查询
+        if：用于判断参数是否有值，使用test属性进行条件判断
+            * 存在问题：第一个条件不需要逻辑运算符
+            * 解决方案
+                * 使用恒等式 1 = 1 让所有条件格式都一样
+                * <where> 标签替换 where 关键字
+    -->
+    <select id="selectByCondition" resultType="com.KarlexYan.pojo.Brand" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        <where>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="companyName != null and companyName != ''">
+                and company_Name like #{companyName}
+            </if>
+            <if test="brandName != null and brandName != ''">
+                and brand_Name like #{brandName}
+            </if>;
+        </where>
+    </select>
+
+    <!--单条件动态查询-->
+    <select id="selectByConditionSingle" resultType="com.KarlexYan.pojo.Brand" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        where
+        <choose><!--相当于switch-->
+            <when test="status != null"><!--相当于case-->
+                status = #{status}
+            </when>
+            <when test="companyName != null and companyName != ''">
+                company_Name like #{companyName}
+            </when>
+            <when test="brandName != null and brandName != ''">
+                brand_Name like #{brandName}
+            </when>
+            <otherwise><!--相当于default-->
+                1 = 1
+            </otherwise>
+        </choose>
+    </select>
+
+    <!--添加数据-->
+    <!--useGeneratedKeys="true" keyProperty="id" 添加主键返回-->
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_brand (brand_name, company_name, ordered, description, status)
+        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+    <!--更新数据-->
+    <update id="update">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">brand_name = #{brandName},</if>
+            <if test="companyName != null and companyName != ''">company_name = #{companyName},</if>
+            <if test="ordered != null and ordered != ''">ordered = #{ordered},</if>
+            <if test="description != null and description != ''">description = #{description},</if>
+            <if test="status != null">status = #{status}</if>
+            where id = #{id}
+        </set>
+    </update>
+
+    <!--根据id删除-->
+    <delete id="deleteById">
+        delete
+        from tb_brand
+        where id = #{id};
+    </delete>
+
+    <!--
+        批量删除
+            collection="ids" item="id" separator="," open="(" close=")"
+            传入ids数组，个体为id，分隔符逗号 开始为左括号 结束为右括号
+                * 默认：collection = "array" = 数组
+                * 使用@Param注解可以改变map集合的默认key名称
+    -->
+    <delete id="deleteByIds">
+        delete from tb_brand
+        where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>
